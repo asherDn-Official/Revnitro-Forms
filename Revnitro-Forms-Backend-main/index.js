@@ -18,7 +18,7 @@ const cookieParser = require("cookie-parser");
 
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4000;
 connectToDatabase();
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
